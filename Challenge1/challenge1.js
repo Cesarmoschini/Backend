@@ -5,13 +5,12 @@ class User {
     book;
     countPet;
     title;
-    constructor(name,lastname, pet=[],book=[],title=[]){
+    constructor(name,lastname, pet=[],book=[]){
         this.name = name;
         this.lastname = lastname;
         this.pet = pet;
         this.countPet = pet.length;
         this.book = book;
-        this.title = title;
     }
 
     getFullName(){
@@ -28,7 +27,8 @@ class User {
         console.log(this.book)
     };
     arrayTitleBook(){
-        console.log(this.book.map((object)=>object.title))
+        const titleBook = this.book.map((object)=>object.title)
+        console.log(titleBook)
     };
 }
 const user1 = new User('Juan','Rosales',['Cat','Dog'],[{title:'Cien año de soledad',author:'García Marquez'},{title:'Corazón delator',author:'Poe'}]) ;
