@@ -1,10 +1,10 @@
 class User {
-    name;
-    lastname;
-    pet;
-    book;
-    countPet;
-    title;
+    // name;
+    // lastname;
+    // pet;
+    // book;
+    // countPet;
+    // title;
     constructor(name,lastname, pet=[],book=[]){
         this.name = name;
         this.lastname = lastname;
