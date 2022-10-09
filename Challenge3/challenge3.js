@@ -46,11 +46,11 @@ class Contenedor{
         const books = await getBooks();
             const index = books.findIndex((aBook) => aBook.id == id)
             if (index == -1) {throw new Error('No existe el libro buscado')}
-            console.log(books[index]);
+            return books[index];
         };
     async getAll(){
         const books = await getBooks();
-        console.log(books)
+        return books
     }
     async deleteById(idSelected){
         const books = await getBooks();
@@ -71,7 +71,7 @@ const newArchive = new Contenedor('books.json')
 
 app.get('/productos', async (req, res) => {
     const products = await newArchive.getAll();
-    res.send(`<h1 style="color:blue">${products}</h1>`);
+    res.json(products);
 });
 
 app.get('/productoRandom', async (req, res) => {
@@ -81,7 +81,7 @@ app.get('/productoRandom', async (req, res) => {
     const books = await getBooks();
     const valor = books.length;
     const product = await newArchive.getById(between(1,valor));
-    res.send(`<h1 style="color:blue">${product}</h1>`)
+    res.json(product)
 });
 
 const server = app.listen(PORT, ()=>{
