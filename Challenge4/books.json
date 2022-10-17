@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"title": "Cien años de soledad",
+		"author": "García Márquez"
+	},
+	{
+		"id": 2,
+		"title": "Ceremonia secreta",
+		"author": "Denevi"
+	},
+	{
+		"id": 3,
+		"title": "Amor y otros demonios",
+		"author": "García Márquez"
+	},
+	{
+		"id": 4,
+		"title": "Casa de muñecas",
+		"author": "Ibsen"
+	}
+]
