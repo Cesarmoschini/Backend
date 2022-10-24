@@ -1,0 +1,17 @@
+li {
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  td {
+    border: 2px solid #000;
+  }
+  
+  tr td:last-child {
+    width: 2%;
+    white-space: nowrap;
+  }
+  
+  .midlaner {background-color: #e2c4c0}
+  .toplaner {background-color: #ff6f00}

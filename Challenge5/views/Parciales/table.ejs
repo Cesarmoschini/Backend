@@ -1,0 +1,24 @@
+<table style="width:50%">
+    <tr>
+      <th id="id">ID</th>
+      <th id="titleHeader">Title</th>
+      <th id="authorHeader">Author name</th>
+      <th id="yearHeader">Post year</th>
+    </tr>
+    <% books.forEach(anItem=> { %>
+      <tr>
+        <td>
+          <%= anItem.id %>
+        </td>
+        <td>
+          <%= anItem.title %>
+        </td>
+        <td>
+          <%= anItem.author %>
+        </td>
+        <td>
+          <%= anItem.year %>
+        </td>
+      </tr>
+      <% }) %>
+  </table>
