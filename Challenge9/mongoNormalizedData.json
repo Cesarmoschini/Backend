@@ -1,0 +1,55 @@
+
+{
+	"entities": {
+		"author": {
+			"jromero@hotmail.com": {
+                "email": "jromero@hotmail.com",
+                "nombre": "Juan",
+                "apellido": "Romero",
+                "alias": "JR",
+                "edad": 24
+			},
+			"msantos@edrans.com": {
+                "email": "msantos@edrans.com",
+                "nombre": "Marcos",
+                "apellido": "Santos",
+                "alias": "MS",
+                "edad": 32
+			}
+		},
+		"message": {
+			"6147d1ff8a1aa26fef23f244": {
+				"_id": "6147d1ff8a1aa26fef23f244",
+				"author": "jromero@hotmail.com",
+				"text": "Texto1"
+			},
+			"6147d21e8a1aa26fef23f245": {
+				"_id": "6147d21e8a1aa26fef23f245",
+				"author": "msantos@hotmail.com",
+				"text": "Texto2"
+			},
+			"6147d2368a1aa26fef23f246": {
+				"_id": "6147d2368a1aa26fef23f246",
+				"author": "jente@hotmail.com",
+				"text": "Texto3"
+			},
+			"6147dd0fc2176ee2373e450b": {
+				"_id": "6147dd0fc2176ee2373e450b",
+				"author": "msantos@hotmail.com",
+				"text": "Texto4"
+			},
+			"6147ddb4f5045868e6bdecce": {
+				"_id": "6147ddb4f5045868e6bdecce",
+				"author": "jromero@hotmail.com",
+				"text": "Texto5"
+			}
+		}
+	},
+	"result": [
+		"6147d1ff8a1aa26fef23f244",
+		"6147d21e8a1aa26fef23f245",
+		"6147d2368a1aa26fef23f246",
+		"6147dd0fc2176ee2373e450b",
+		"6147ddb4f5045868e6bdecce"
+	]
+}

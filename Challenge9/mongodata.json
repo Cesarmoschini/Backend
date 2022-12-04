@@ -1,0 +1,57 @@
+[
+	{
+		"_id": "6147d1ff8a1aa26fef23f244",
+		"author": {
+			"email": "jromero@hotmail.com",
+			"nombre": "Juan",
+			"apellido": "Romero",
+			"alias": "JR",
+			"edad": 24
+		},
+		"text": "Texto1"
+	},
+	{
+		"_id": "6147d21e8a1aa26fef23f245",
+		"author": {
+			"email": "msantos@hotmail.com",
+			"nombre": "Marcos",
+			"apellido": "Santos",
+			"alias": "MS",
+			"edad": 32
+		},
+		"text": "Texto2"
+	},
+	{
+		"_id": "6147d2368a1aa26fef23f246",
+		"author": {
+			"email": "jente@hotmail.com",
+			"nombre": "Javier",
+			"apellido": "Ente",
+			"alias": "Javi",
+			"edad": 20
+		},
+		"text": "Texto3"
+	},
+	{
+		"_id": "6147dd0fc2176ee2373e450b",
+		"author": {
+			"email": "msantos@hotmail.com",
+			"nombre": "Marcos",
+			"apellido": "Santos",
+			"alias": "MS",
+			"edad": 32
+		},
+		"text": "Texto4"
+	},
+	{
+		"_id": "6147ddb4f5045868e6bdecce",
+		"author": {
+			"email": "jromero@hotmail.com",
+			"nombre": "Juan",
+			"apellido": "Romero",
+			"alias": "JR",
+			"edad": 24
+		},
+		"text": "Texto5"
+	}
+]
