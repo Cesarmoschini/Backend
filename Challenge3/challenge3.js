@@ -21,13 +21,21 @@ class Contenedor{
         this.nameFile = path.resolve(__dirname, nameFile);
     };
     // async getBooks(){
-    //     const data = await fs.promises.readFile(nameFile,'utf-8');
+    // try{
+    //     await fs.promises.readFile(nameFile,'utf-8');
     //     return JSON.parse(data);
+    // }catch (error){
+    //     throw new Error(`Error de lectura ${error}`)
     // }
+    // };
     // async saveBooks(books){
-    //     const data = JSON.stringify(books,null,'\t');
+    // try{
+    //     await JSON.stringify(books,null,'\t');
     //     await fs.promises.writeFile(nameFile,data)  
+    // }catch (error){
+    //     throw new Error(`Error de lectura ${error}`)
     // }
+    // };
     async saveBook(myObject){
         const books = await getBooks();
         let id;
