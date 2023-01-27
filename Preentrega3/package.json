@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cmoschini/Preentrega3.git"
+    "url": "git+https://github.com/Cesarmoschini/Backend/Preentrega3.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cmoschini/Preentrega3/issues"
+    "url": "https://github.com/Cesarmoschini/Backend/Preentrega3/issues"
   },
-  "homepage": "https://github.com/cmoschini/Preentrega3#readme",
+  "homepage": "https://github.com/Cesarmoschini/Backend/Preentrega3#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
