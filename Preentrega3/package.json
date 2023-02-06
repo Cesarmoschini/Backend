@@ -13,7 +13,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/Cesarmoschini/Backend/Preentrega3.git"
+=======
+    "url": "git+https://github.com/Cesarmoschini/Backend/Preentrega3.git",
+>>>>>>> 604db3fd1b801d99cff6b759be45009b64d0c949
   },
   "author": "",
   "license": "ISC",
