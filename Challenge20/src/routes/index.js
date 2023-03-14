@@ -8,7 +8,6 @@ const router = new Router({
 
 router.use(LibrosRouter);
 
-
 router.get('/', async (ctx, next) => {
 
 })
