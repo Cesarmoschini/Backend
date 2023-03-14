@@ -20,4 +20,5 @@ const db = await client.connect({
   },
 });
 
+
 export const MongoDb = db;
