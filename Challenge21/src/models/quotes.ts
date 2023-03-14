@@ -10,6 +10,7 @@ export const getQuotes = async (ctx: Context) => {
   try {
     let output;
 
+    
     const allQuotes = await QuotesModel.find(
       { _id: theId },
       { noCursorTimeout: false }
