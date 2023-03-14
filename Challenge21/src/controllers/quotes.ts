@@ -81,6 +81,7 @@ export const updateQuote = async (ctx: Context) => {
   }
 };
 
+
 export const deleteQuote = async (ctx: Context) => {
   const { request, response } = ctx;
   try {
