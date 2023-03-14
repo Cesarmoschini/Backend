@@ -5,6 +5,7 @@ export const middleware1 = (ctx, next) => {
     next();
   };
   
+
   export const middleware2 = (ctx, next) => {
     console.log('APLICO PRIMER MIDDLEWARE 2 ');
     console.log(ctx.body);
