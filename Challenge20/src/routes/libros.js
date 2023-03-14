@@ -5,8 +5,7 @@ const router = new Router({
   prefix: '/libros',
 });
 
-/* ---------------------- Routes ----------------------- */
-/* API REST Get All */
+
 router.get('/', async (ctx, next) => {
   ctx.body = {
     status: 'success',
@@ -15,7 +14,7 @@ router.get('/', async (ctx, next) => {
   ctx.status = 200;
 });
 
-/* API REST Get x ID */
+
 router.get('/:id', async (ctx, next) => {
   const { id } = ctx.params;
   ctx.body = {
@@ -25,7 +24,7 @@ router.get('/:id', async (ctx, next) => {
   ctx.status = 200;
 });
 
-/* API REST Post */
+
 router.post('/', async (ctx, next) => {
   // Check if any of the data field not empty
   console.log(ctx.request.body);
@@ -56,7 +55,7 @@ router.put('/:id', async (ctx, next) => {
   ctx.status = 200;
 });
 
-/* API REST Delete */
+
 router.delete('/:id', async (ctx, next) => {
   const { id } = ctx.params;
   LibrosController.remove(id)
