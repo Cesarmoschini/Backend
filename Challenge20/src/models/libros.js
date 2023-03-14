@@ -1,6 +1,6 @@
 export const libros = [
-    { id: '101', name: 'Fight Club', author: 'Chuck Palahniuk' },
-    { id: '102', name: 'Sharp Objects', author: 'Gillian Flynn' },
-    { id: '103', name: 'Frankenstein', author: 'Mary Shelley' },
-    { id: '104', name: 'Into The Willd', author: 'Jon Krakauer' },
+    { id: '11', name: 'Cien años de soledad', author: 'Gabriel García Marquez' },
+    { id: '12', name: 'Ceremonia secreta', author: 'Marco Denevi' },
+    { id: '13', name: 'Hamlet', author: 'William Shakespeare' },
+    { id: '14', name: 'Don Quijo de la Mancha', author: 'Cervantes Saavedra' },
   ];
