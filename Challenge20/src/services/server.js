@@ -21,7 +21,6 @@ app.use(async (ctx, next) => {
 app.use(middleware1);
 app.use(middleware2);
 app.use(middleware3);
-
 app.use(mainRouter);
 
 export default app;
