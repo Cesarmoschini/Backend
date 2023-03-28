@@ -74,3 +74,4 @@ class CartDaoMemory extends MemoryDAO {
 }
 
 export default CartDaoMemory;
+
