@@ -2,7 +2,6 @@
 Proyecto final del curso de 'Desarrollo Backend'
 
 ## Dependencias
-
 - bcrypt
 - compression
 - cookie-parser
