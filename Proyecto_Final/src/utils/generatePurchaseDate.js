@@ -8,6 +8,7 @@ const generatePurchaseDate = (date) => {
       "Friday",
       "Saturday",
     ];
+    
     const month = [
       "January",
       "February",
